@@ -5,6 +5,7 @@ import java.awt.Menu;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import luqmanmohammad.u2d1.entities.Diavola;
 import luqmanmohammad.u2d1.entities.Margherita;
 
 @Configuration
@@ -15,4 +16,11 @@ public class Beans {
 	public Margherita margherita() {
 		return new Margherita();
 	}
+	
+	@Bean
+	public Diavola diavola() {
+		return new Diavola();
+	}
+	
+	
 }
